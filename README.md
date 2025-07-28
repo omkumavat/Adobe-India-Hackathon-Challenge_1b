@@ -8,10 +8,11 @@ This Python script extracts relevant sections from PDFs in the `collections/` di
 
 ```
 .
-├── collections/
-│   └── [your pdf files here]
-├── input.json
-├── process_collections.py
+Collection_3/
+│
+├── challenge1b_input.json
+├── challenge1b_output.json
+├── challenge_1b.py
 ├── requirements.txt
 └── README.md
 ```
