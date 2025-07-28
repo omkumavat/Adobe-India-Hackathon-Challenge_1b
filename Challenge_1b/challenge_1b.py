@@ -134,7 +134,8 @@ def process_collection(collection_path):
 
 
 def main():
-    collection_path = "D:\Adobe-India-Hackathon-ConnectingTheDots\Python Codes\Python Codes\Collection_3" 
+    collection_path = os.path.join(os.getcwd(), "Collection_1")
+    # collection_path = "D:\Adobe-India-Hackathon-Challlenge_1b\Challenge_1b\Collection_1" 
     if os.path.isdir(collection_path) and os.path.exists(os.path.join(collection_path, 'challenge1b_input.json')):
         print(f"Processing: {collection_path}")
         process_collection(collection_path)
