@@ -66,7 +66,7 @@ This JSON file should describe:
 ## ▶️ How to Run
 
 ```bash
-python process_collections.py
+python challenge_1b.py
 ```
 
 The script will:
